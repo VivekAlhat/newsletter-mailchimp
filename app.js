@@ -15,3 +15,7 @@ app.listen(3000, function () {
 app.get("/", function (request, response) {
   response.sendFile(__dirname + "/src/signup.html");
 });
+
+app.post("/", function (request, response) {
+  const userEmail = request.body.email;
+});
