@@ -1,0 +1,17 @@
+body {
+  overflow: hidden;
+  background-color: #c1ddec;
+}
+
+.jumbotron {
+  color: #000000;
+  box-shadow: 5px 10px #7c8c94;
+  background-color: #848ccf;
+  width: 700px;
+  height: 350px;
+  padding: 50px 30px 20px 30px;
+  margin: 150px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
