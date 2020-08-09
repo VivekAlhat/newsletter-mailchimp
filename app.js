@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 // Start server
-app.listen(3000, function () {
-  console.log("Server is up and running on port 3000");
+app.listen(process.env.PORT || 3000, function () {
+  // console.log("Server is up and running on port 3000");
 });
 
 app.get("/", function (request, response) {
